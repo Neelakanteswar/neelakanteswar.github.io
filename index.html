@@ -8,8 +8,98 @@
 		<meta name="description" content="my portfolio" />
 		<meta name="keywords" content="Neelakanteswar,NEELAKANTESWAR,Neelakanteswara,NEELAKANTESWARA,Neelakanteswar patnaik,NEELAKANTESWARA PATNAIK,Neelakanteswar patnaik,NEELAKANTESWAR PATNAIK,Neelakanteshwar patnaik" />
 		<meta name="author" content="NEELAKANTESWAR PATNAIK" />
-	<link rel="shortcut icon" href="https://github.com/neelakanteswar/neelakanteswar.github.io/blob/master/images/np.png">
-	<link rel="stylesheet" type="text/css" href="https://github.com/neelakanteswar/neelakanteswar.github.io/blob/master/splash.css">
+		<style>
+			#logo{
+	width: 15%;
+	height: 15%;
+	margin-top: 4em;
+	margin-left: 32em;
+	opacity: 0;
+	transition: 2s opacity ease-in 200ms;
+}
+#logo {
+	-webkit-animation: jiggle 0.2s infinite;
+    -moz-animation-duration: 0.2s;
+    -moz-animation-name: jiggle;
+    -moz-animation-iteration-count: infinite;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+}
+.splash{
+	color:#A1D5E2;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-color: #F1F1F1;
+}
+#hello{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 80px;
+	visibility: hidden;
+}
+#hello2{
+	text-align: center;
+	margin-top: -300px;
+	font-size: 80px;
+	visibility: hidden;
+}
+#hello3{
+	text-align: center;
+	margin-top: -300px;
+	font-size: 80px;
+	visibility: hidden;
+}
+#hello4{
+	text-align: center;
+	margin-top: -300px;
+	font-size: 80px;
+	visibility: hidden;
+}
+.home{
+	opacity: 0;
+	transition: 2s opacity ease-in 200ms;
+	margin-top: -250px; 
+}
+.home h1{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+}
+.home h3{
+	text-align: center;
+}
+#name{
+	color: #A1D5E2;
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+}
+#addon{
+	font-size: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+@-moz-keyframes jiggle {
+    0% {
+        -moz-transform: rotate(-1deg);
+    }
+    50% {
+        -moz-transform: rotate(1deg);
+    }
+}
+
+@-webkit-keyframes jiggle {
+    0% {
+        -webkit-transform: rotate(-1deg);
+        }
+    50% {
+        -webkit-transform: rotate(1deg);
+    }
+}
+	</style>			
+		
 </head>
 <body>
 <object>
@@ -43,6 +133,59 @@
 	<h3>I'm a freelancing web designer.</h3>
 </div>
 
-<script type="text/javascript" src="https://github.com/neelakanteswar/neelakanteswar.github.io/blob/master/splash.js"></script>
-</body>
+<script type="text/javascript">
+function showme(){
+	document.getElementById("logo").style.opacity = "1";
+}
+setTimeout("showme()",1000);
+function stopme(){
+	document.getElementById("logo").style.animation = "none";
+}
+setTimeout("stopme()",5000);
+
+function showIt() {
+  document.getElementById("hello").style.visibility = "visible";
+}
+setTimeout("showIt()", 1000); // after 1 sec
+
+function hideIt() {
+	document.getElementById("hello").style.visibility = "hidden";
+}
+setTimeout("hideIt()",2000);
+
+function showIt2() {
+  document.getElementById("hello2").style.visibility = "visible";
+}
+setTimeout("showIt2()", 2000); // after 5 secs
+
+function hideIt2() {
+	document.getElementById("hello2").style.visibility = "hidden";
+}
+setTimeout("hideIt2()",3000);
+
+function showIt3() {
+  document.getElementById("hello3").style.visibility = "visible";
+}
+setTimeout("showIt3()", 3000); // after 1 sec
+
+function hideIt3() {
+	document.getElementById("hello3").style.visibility = "hidden";
+}
+setTimeout("hideIt3()",4000);
+
+function showIt4() {
+  document.getElementById("hello4").style.visibility = "visible";
+}
+setTimeout("showIt4()", 4000); // after 1 sec
+
+function hideIt4() {
+	document.getElementById("hello4").style.visibility = "hidden";
+}
+setTimeout("hideIt4()",5000);
+function showhome(){
+	document.getElementById("intro-text").style.opacity = "1";
+}
+setTimeout("showhome()",5000);
+</script>
+	</body>
 </html>
