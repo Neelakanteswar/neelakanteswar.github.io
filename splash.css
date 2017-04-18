@@ -1,0 +1,105 @@
+#logo{
+	width: 15%;
+	height: 15%;
+	margin-top: 4em;
+	margin-left: 32em;
+	opacity: 0;
+	transition: 2s opacity ease-in 200ms;
+}
+#logo {
+	-webkit-animation: jiggle 0.2s infinite;
+    -moz-animation-duration: 0.2s;
+    -moz-animation-name: jiggle;
+    -moz-animation-iteration-count: infinite;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+}
+.splash{
+	color:#FFFFFF;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-color: #0099FF;
+}
+#hello, #hello2, #hello3, #hello4{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 80px;
+	visibility: hidden;
+}
+
+#hello2, #hello3, #hello4{
+	margin-top: -300px;
+}
+.home{
+	opacity: 0;
+	transition: 2s opacity ease-in 200ms;
+	margin-top: -250px; 
+}
+.home h1{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+}
+.home h3{
+	text-align: center;
+}
+#name{
+	color: #FFFFFF;
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+}
+#addon{
+	font-size: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+@-moz-keyframes jiggle {
+    0% {
+        -moz-transform: rotate(-1deg);
+    }
+    50% {
+        -moz-transform: rotate(1deg);
+    }
+}
+
+@-webkit-keyframes jiggle {
+    0% {
+        -webkit-transform: rotate(-1deg);
+        }
+    50% {
+        -webkit-transform: rotate(1deg);
+    }
+}
+@media only screen and (max-width: 480px){ 
+	#logo{
+	width: 30%;
+	height: 30%;
+	margin-top: 10em;
+	margin-left: 8em;
+	opacity: 0;
+	transition: 2s opacity ease-in 200ms;
+}
+	#hello, #hello2, #hello3, #hello4{
+	text-align: center;
+	margin-top: 90px;
+	font-size: 40px;
+	visibility: hidden;
+}
+
+	#hello2, #hello3, #hello4{
+	margin-top: -140px;
+}
+.home h1{
+	padding-top: 40px;
+	font-size: 20px;
+}
+#name{
+	font-size: 30px;
+}
+#addon{
+	display: none;
+}
+}
