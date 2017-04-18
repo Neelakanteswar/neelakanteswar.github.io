@@ -22,29 +22,15 @@
 body{
 	background-color: #F1F1F1;
 }
-#hello{
+#hello, #hello2, #hello3, #hello4{
 	text-align: center;
 	margin-top: 20px;
 	font-size: 80px;
 	visibility: hidden;
 }
-#hello2{
-	text-align: center;
+
+#hello2, #hello3, #hello4{
 	margin-top: -300px;
-	font-size: 80px;
-	visibility: hidden;
-}
-#hello3{
-	text-align: center;
-	margin-top: -300px;
-	font-size: 80px;
-	visibility: hidden;
-}
-#hello4{
-	text-align: center;
-	margin-top: -300px;
-	font-size: 80px;
-	visibility: hidden;
 }
 .home{
 	opacity: 0;
@@ -92,9 +78,18 @@ body{
 	width: 30%;
 	height: 30%;
 	margin-top: 10em;
-	margin-left: 9em;
+	margin-left: 10em;
 	opacity: 0;
 	transition: 2s opacity ease-in 200ms;
 }
+	#hello, #hello2, #hello3, #hello4{
+	text-align: center;
+	margin-top: 90px;
+	font-size: 40px;
+	visibility: hidden;
+}
 
+	#hello2, #hello3, #hello4{
+	margin-top: -140px;
+}
 }
