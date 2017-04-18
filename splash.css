@@ -87,3 +87,14 @@ body{
         -webkit-transform: rotate(1deg);
     }
 }
+@media only screen and (max-width: 480px){ 
+	#logo{
+	width: 30%;
+	height: 30%;
+	margin-top: 10em;
+	margin-left: 9em;
+	opacity: 0;
+	transition: 2s opacity ease-in 200ms;
+}
+
+}
