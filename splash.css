@@ -92,4 +92,14 @@ body{
 	#hello2, #hello3, #hello4{
 	margin-top: -140px;
 }
+.home h1{
+	padding-top: 40px;
+	font-size: 20px;
+}
+#name{
+	font-size: 30px;
+}
+#addon{
+	display: none;
+}
 }
