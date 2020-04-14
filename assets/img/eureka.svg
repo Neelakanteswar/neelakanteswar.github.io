@@ -1,0 +1,40 @@
+<svg id="eureka" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121 490">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2d71aa;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #daa520;
+      }
+
+      .cls-4 {
+        fill: #1b4960;
+      }
+
+      .cls-5 {
+        fill: peru;
+      }
+
+      .cls-6 {
+        fill: #ff182b;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="27.09" y="35.51" width="93.91" height="454.5"/>
+  <polygon class="cls-2" points="28.9 37.31 28.59 190.22 36.12 190.22 79.78 37.31 28.9 37.31"/>
+  <rect class="cls-3" x="40.33" y="0.14" width="57.79" height="85.18"/>
+  <rect class="cls-4" x="9.63" y="163.13" width="34.31" height="326.88"/>
+  <rect class="cls-4" x="98.12" y="35.51" width="22.88" height="454.5"/>
+  <rect class="cls-1" y="163.13" width="34.31" height="326.88"/>
+  <rect class="cls-5" x="98.12" y="-0.01" width="22.88" height="85.48"/>
+  <rect class="cls-6" x="79.46" y="54.17" width="4.21" height="46.35"/>
+</svg>

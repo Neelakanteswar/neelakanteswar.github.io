@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 329 526">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff671f;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 58px;
+        font-family: HelveticaNeue-CondensedBlack, Helvetica Neue;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+      }
+    </style>
+  </defs>
+  <g id="Mailbox">
+    <path id="MailBox-2" data-name="MailBox" class="cls-1" d="M25,0H304a25,25,0,0,1,25,25V510a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V25A25,25,0,0,1,25,0Z"/>
+    <rect id="baseL" class="cls-2" x="22" y="510" width="87" height="16"/>
+    <rect id="baseR" class="cls-2" x="220" y="510" width="87" height="16"/>
+    <rect id="hole" class="cls-2" x="22" y="105" width="285" height="34"/>
+    <g id="Logo">
+      <path class="cls-3" d="M172.25,236.75c15.19-.15,24.67-12.16,24.56-23.14-.11-11.75-10.22-22.83-24.49-22.92,0-.07-.12-.14-.13-.21C172,188,172,188,174.45,188c17.43-.06,31.74,11.22,35.66,28.12,4.58,19.71-9,39.86-29.06,42.94-2.56.4-5.2.35-7.8.51-.69,0-1.13-.1-1.13-1,0-7.16,0-14.32,0-21.48A1.4,1.4,0,0,1,172.25,236.75Z"/>
+      <path class="cls-3" d="M162.57,190.45v66.83A34.12,34.12,0,0,1,149.73,249a34.77,34.77,0,0,1-10.27-22.54C138.06,206.34,152.37,193.52,162.57,190.45Z"/>
+      <text class="cls-4" transform="translate(103.45 344.37)">POST</text>
+    </g>
+  </g>
+</svg>

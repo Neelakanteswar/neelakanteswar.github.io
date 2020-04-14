@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 667">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #daa520;
+      }
+
+      .cls-2 {
+        fill: #f96c69;
+      }
+
+      .cls-3, .cls-6 {
+        font-size: 16px;
+        font-family: HelveticaNeue-Medium, Helvetica Neue;
+        font-weight: 500;
+      }
+
+      .cls-3, .cls-6, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: 0.1em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0.08em;
+      }
+
+      .cls-5, .cls-6 {
+        letter-spacing: 0.1em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.04em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0.01em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_11" data-name="Layer 11">
+    <rect x="95.5" width="4" height="88.5" rx="2"/>
+    <rect class="cls-1" x="81.5" y="86.5" width="32" height="85.5"/>
+    <path class="cls-2" d="M187.5,666.5H-.5v-562l188,55Z"/>
+    <rect x="187.5" y="214" width="77.5" height="452.5"/>
+    <rect x="34" y="214" width="154" height="37"/>
+    <rect x="34" y="438" width="154" height="37"/>
+    <rect x="34.5" y="550" width="153" height="37"/>
+    <rect x="34" y="326" width="154" height="37"/>
+    <text class="cls-3" transform="translate(111.29 239.51)">EXPE<tspan class="cls-4" x="47.6" y="0">R</tspan><tspan class="cls-5" x="60.18" y="0">T</tspan></text>
+    <text class="cls-6" transform="translate(81.52 351.57)">AD<tspan class="cls-7" x="25.42" y="0">V</tspan><tspan x="35.92" y="0">ANCED</tspan></text>
+    <text class="cls-3" transform="translate(45.99 464.13)">INTERMEDI<tspan class="cls-8" x="101.53" y="0">A</tspan><tspan x="112.33" y="0">TE</tspan></text>
+    <text class="cls-6" transform="translate(85.7 573.71)">BEGINNER</text>
+    <rect class="cls-9" x="187.5" y="550" width="77.5" height="3"/>
+    <rect class="cls-9" x="187.4" y="437.85" width="77.5" height="3"/>
+    <rect class="cls-9" x="187.78" y="325.94" width="77.5" height="3"/>
+    <g>
+      <rect class="cls-9" x="169" y="490" width="8" height="16"/>
+      <path d="M173,492.5l-3,4.5h6Z"/>
+      <path d="M172.81,503.5l-3-4.5h6Z"/>
+    </g>
+    <g>
+      <rect class="cls-9" x="169.31" y="382" width="8" height="16"/>
+      <path d="M173.31,384.5l-3,4.5h6Z"/>
+      <path d="M173.12,395.5l-3-4.5h6Z"/>
+    </g>
+    <g>
+      <rect class="cls-9" x="168.35" y="266.67" width="8" height="16"/>
+      <path d="M172.35,269.17l-3,4.5h6Z"/>
+      <path d="M172.16,280.17l-3-4.5h6Z"/>
+    </g>
+    <g>
+      <rect class="cls-9" x="172.31" y="601" width="8" height="16"/>
+      <path d="M176.31,603.5l-3,4.5h6Z"/>
+      <path d="M176.12,614.5l-3-4.5h6Z"/>
+    </g>
+  </g>
+</svg>
