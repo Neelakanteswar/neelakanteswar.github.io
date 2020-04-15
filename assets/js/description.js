@@ -52,14 +52,14 @@ function text1(){
   $(".text2").removeClass("no_text");
   $(".text2").addClass("add_text");
 }
-setTimeout(text1, 2000);
+setTimeout(text1, 3000);
 
 function text2(){
   $(".text2").removeClass("add_text");
   $(".text2").addClass("no_text");
   $(".text3").addClass("add_text");
 }
-setTimeout(text2, 5000);
+setTimeout(text2, 6000);
 
 // function text3(){
 //   $(".text3").removeClass("add_text");
